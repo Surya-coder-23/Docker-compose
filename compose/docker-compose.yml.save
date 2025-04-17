@@ -1,0 +1,11 @@
+
+
+volumes:
+  movie_vol:
+networks:
+  blockmyshownet:
+    driver: bridge
+version: 3.9
+services:
+  wordpress:
+    image: wordpress:
