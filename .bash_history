@@ -74,3 +74,21 @@ git push -u origin main
 git fetch origin master
 git merge origin master
 yes
+git init
+git add . && git commit -m "surya"
+git branch -M main
+git remote add origin https://github.com/Surya-coder-23/docker_Compose.git
+git push -u origin main
+git merge master 
+git stash
+git status
+git init
+git add . && git commit -m "welcom"
+git status
+git remote add origin https://github.com/Surya-coder-23/docker_Compose.git
+git push -u origin master
+git remote add origin https://github.com/Surya-coder-23/docker_Compose.git
+git push -u origin master
+git remote set-url origin'https://github.com/Surya-coder-23/Docker-compose.git
+git push -u origin master
+sudo docker-compose up -d
